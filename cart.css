@@ -1,0 +1,371 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* navbar css code */
+#heading{
+    padding: 10px;
+    text-align: center;
+    background-color: #ff7451;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+}
+#navbar{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    
+}
+#logo{
+    width: 23%;
+}
+#logo>a{
+    text-decoration: none;
+}
+#logo>a>img{
+    padding-left: 30px;
+    width: 80%;
+    height: 100%;
+}
+#list{
+    padding: 35px;
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+#icon{
+
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+#icon>a{
+    justify-content: center;
+}
+#icon>a>img{
+    justify-items: center;
+   margin-top: 30px;
+    width: 25px;
+    height: 25px;
+    padding-left:50px;
+    transition: 1s;
+
+
+}
+#list>p>a{
+    text-decoration: none;
+    color: rgb(119, 119, 119);
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    transition: .5s;
+}
+#list>p>a:hover{
+    text-decoration-line: underline;
+    color: black;
+    font-size: 22px;
+    
+   
+}
+#icon>a>img:hover{
+    transform: scale(1.2);
+    z-index:auto;
+   
+}
+
+/* cartsection */
+#cartlist{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    
+    
+}
+#box{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 10px;
+   
+}
+#deleteicon>img{
+    width: 17%;
+    margin: 80px;
+    margin-left: 10px;
+    height: 17%;
+}
+#productimg>img{
+    width: 100%;
+    margin-left: -100px;
+    height: 100%;
+}
+#productname{
+    width: 150%;
+}
+#productname>p{
+    padding-top: 70px;
+    margin-left: -80px;
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    font-family: Poppins, sans-serif;
+    font-weight: 550;
+    line-height: 25px;
+}
+
+#price>p{
+    padding-top: 80px;
+    padding-left: 90px;
+    font-size: 24px;
+    color:rgb(131, 142, 127);
+    font-family: Poppins sans-serif;
+    font-weight: 700;
+    line-height: 25px;
+}
+#totalprice{
+    padding-top: 80px;
+    padding-left: 50px;
+    font-size: 24px;
+    color:rgb(131, 142, 127);
+    font-family: Poppins sans-serif;
+    font-weight: 700;
+    line-height: 25px;
+}
+#incdec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+    /*background-color: #F8F8F8;*/
+    margin: 0;
+    padding: 0;
+    margin-left: 80px;
+
+}
+button {
+    width: 32px;
+    height: 32px;
+    font-weight: ;
+    border: none;
+    outline: none;
+    background-color: #F8F8F8;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+    font-size: 20px;
+    cursor: pointer;
+    /* font-size: 3em;
+    line-height: 3; */
+}
+
+#qntbox {
+    width: 30px;
+    height: 30px;
+    background-color: #F8F8F8;
+    outline: none;
+    border: 0px;
+    padding: 1px 2px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#sumbox{
+    background-color: #66765F;
+    width: 450px;
+    text-align: center;
+    height: 200px;
+    margin-left: 60%;
+    border-radius: 10px;
+}
+#sumbox>h1{
+    color: white;
+    font-family: Poppins sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    padding-top: 25px;
+}
+#sumbox>h2{
+    color: white;
+    font-family: Poppins sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 40px;
+}
+#submitbutton{
+    width: 450px;
+    text-align: center;
+    height: 50px;
+    margin-left: 60%;
+    margin-top: 10px;
+}
+#submitbutton>a{
+    text-decoration: none;
+   
+}
+#submitbutton>a>button{
+    width: 450px;
+    height: 50px;
+    color: white;
+    font-family: Poppins sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    background-color:rgb(163, 180, 155);
+    border-radius: 10px;
+   
+}
+#submitbutton>a>button:hover{
+   
+    color: rgb(163, 180, 155);;
+    font-family: Poppins sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    background-color:rgb(229, 226, 226);
+   
+   
+}
+
+
+
+
+
+
+
+
+#designBox{
+    width: 100%;
+    height: 350px;
+    background-color: #EEF2F0;
+    margin-top: 100px;
+}
+#design{
+   
+    width: 80%;
+    height: 300px;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    
+}
+#design>div{
+   
+    width: 20%;
+    height: 100%;
+    margin: auto;
+}
+#designBox>#design>div>h4{
+   font-family: Poppins, sans-serif;
+   font-size: 20px;
+   color: rgb(51, 51, 51);
+   font-weight: 520;
+   line-height: 25px;
+   padding-bottom: 15px;
+   padding-top: 30px;
+}
+#designBox>#design>div>p{
+    color:rgb(136, 136, 136);
+    font-size: 17px;  
+    font-weight: 400; 
+    padding-bottom: 5px;
+    line-height: 20px;
+    font-family: Poppins, sans-serif;
+}
+#designBox>#design>div>h5{
+    color: rgb(51, 51, 51);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-top: 10px;
+
+}
+#designBox>#design>div>h6{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+    color: rgb(163, 180, 155);
+}
+div>h7{
+    height: 10px;
+    width: 100%;
+    
+    font-size: 13px;
+    padding: 20px;
+    padding-top: 10px;
+    margin: auto;
+}
+#icon2{
+    display: flex;
+    width: 80%;
+    height: 55px;
+    margin: auto
+}
+#icon2>h3{
+    width: 90%;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-family: Poppins,sans-serif;
+    font-weight: 500;
+    color: rgb(51, 51, 51);
+    font-size: 30px;
+}
+#icon2>div>img{
+    width: 45px;
+    height: 45px;
+    color: teal;
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-top: 12px;
+    cursor: pointer;
+}
+#bottomDiv{
+    width: 100%;
+    background-color: #EEF2F0; 
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+#bottomDiv>#tool,#compass{
+    width: 80%;
+    margin: auto;
+}
+#tool>h6{
+    font-size: 13px;
+    height: 30px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    margin: auto;
+    margin-top: 5px;
+    padding: 15px;
+    font-family: Poppins,sans-serif;
+    font-weight: 500;
+    color: rgb(51, 51, 51);
+
+}
+#compass>h3{
+    padding-top: -10px;
+    font-size: 17px;
+    background-color: #EEF2F0;
+    color: rgb(51, 51, 51);
+    padding-bottom: 15px;
+    font-family: Poppins,sans-serif;
+}
+#boxEmail{
+    font-family: Poppins,sans-serif;
+    font-size: 16px;
+    padding:10px 30px 10px 5px;
+    margin:5px 0 15px 0;
+    border-radius: 5px;
+    border: 0px ;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+#social{
+    display: flex;
+    width: 100%;
+    height: 8%;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+#social>h5{
+    color: rgb(51, 51, 51);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+}

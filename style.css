@@ -1,0 +1,411 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* navbar css code */
+#heading{
+    padding: 10px;
+    text-align: center;
+    background-color: #ff7451;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+}
+#navbar{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    
+}
+#logo{
+    width: 23%;
+}
+#logo>a{
+    text-decoration: none;
+}
+#logo>a>img{
+    padding-left: 30px;
+    width: 80%;
+    height: 100%;
+}
+#list{
+    padding: 35px;
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+#icon{
+
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+#icon>a{
+    justify-content: center;
+}
+#icon>a>img{
+    justify-items: center;
+   margin-top: 30px;
+    width: 25px;
+    height: 25px;
+    padding-left:50px;
+    transition: 1s;
+
+
+}
+#list>p>a{
+    text-decoration: none;
+    color: rgb(119, 119, 119);
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    transition: .5s;
+}
+#list>p>a:hover{
+    text-decoration-line: underline;
+    color: black;
+    font-size: 22px;
+    
+   
+}
+#icon>a>img:hover{
+    transform: scale(1.2);
+    z-index:auto;
+   
+}
+
+
+/* nav bar css code end */
+
+/* category css code */
+.heading{
+    text-align: center;
+    color: rgb(51, 51, 51);
+    font-size: 32px;
+    font-weight: 500;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-family: Poppins, sans-serif;
+}
+#slidingimage{
+    width:100%;
+    margin: auto;
+    height: 525px;
+    background-image:url(https://cdn.shopify.com/s/files/1/0399/1728/9633/files/hero-desktop-ashwagandha_x720.jpg?v=1608662725);
+    background-size: 100% 100%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    animation: slider 10s infinite linear ;
+    border-radius: 10px;
+}
+@keyframes slider{
+    0%{   background-image:url(https://cdn.shopify.com/s/files/1/0399/1728/9633/files/hero-desktop-ashwagandha_x720.jpg?v=1608662725);
+    }
+    25%{
+        background-image: url(https://cdn.shopify.com/s/files/1/0272/4714/9155/files/Purifying-Neem-Face-Wash_1024x.jpg?v=1646279121);
+    }
+    50%{
+        background-image: url(https://cdn.shopify.com/s/files/1/0272/4714/9155/files/HSA_PDP_P02_01Product_1024x.jpg?v=1646384288);
+    }
+    75%{
+        background-image: url(https://cdn.shopify.com/s/files/1/0272/4714/9155/files/our-story_002.jpg?v=1646365724);
+    }
+}
+
+#category{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:30px;  
+}
+#category>div{
+    text-align: center;
+}
+#category>div>a>img{
+    width: 100%;
+    margin: auto;
+    transition: 1s;
+    cursor:pointer;
+}
+#category>div>a>img:hover{
+    transform: scale(1.1);
+    z-index:auto;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 45%;
+}
+#category>div>h3{
+    color: rgb(0,0,0);
+    font-size: 18px;
+    font-weight: 550;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    font-family: Poppins, sans-serif;
+}
+#category>div>p{
+    color:rgb(163, 180, 155);
+    font-size: 14px;
+    font-weight: 525;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    font-family: Poppins, sans-serif;
+}
+
+/* bestseller css code */
+#bestseller{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px; 
+    margin-top: 35px;
+}
+#bestseller>div>img{
+    width: 100%;
+}
+#bestseller>div>p{
+    font-family: Poppins,sans-serif;
+    font-size: 16px;
+    font-weight: 540; 
+    line-height: 25px;
+    color: rgb(51, 51, 51);
+    margin-bottom: 10px;
+}
+#bestseller>div>h2{
+    font-family: Poppins,sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(102, 118, 95);
+    margin-bottom: 10px;
+}
+#history{
+    width: 77%;
+    height: auto;
+    margin: auto;
+    display: flex; 
+    margin-top: 50px;
+    background-color: #EEF2F0;
+    margin-bottom: 100px;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 5px;
+}
+#history>img{
+    width: 15%;
+    height: 250px;
+    margin-right: 40px;
+}
+#history>div>h1{
+    color: rgb(51, 51, 51);
+    font-family: Poppins,sans-serif;
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: .90px;
+}
+#history>div>h2{
+    color: rgb(51, 51, 51);
+    font-family: Poppins,sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: .90px;
+    padding-bottom: 15px;
+}
+#history>div>p{
+    color: rgb(51, 51, 51);
+    font-family: Poppins,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1.7px;
+}
+#feedback{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px; 
+    margin-top: 35px;
+    margin-bottom: 100px;
+}
+#feedback>div{
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    padding: 7%;
+}
+#feedback>div>h3{
+    color: rgb(51, 51, 51);
+    font-family: Poppins,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+#feedback>div>p{
+    color: rgb(171, 171, 171);
+    font-family: Poppins,sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+/* botton part css code */
+
+
+#card{
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    
+}
+#card>div{
+    width: 23.5%;
+    height: 100%;
+    margin: auto;
+    border-radius: 5px;
+}
+#card>div>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+#designBox{
+    width: 100%;
+    height: 350px;
+    background-color: #EEF2F0;
+    margin-top: 50px;
+}
+#design{
+   
+    width: 80%;
+    height: 300px;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    
+}
+#design>div{
+   
+    width: 20%;
+    height: 100%;
+    margin: auto;
+}
+#designBox>#design>div>h4{
+   font-family: Poppins, sans-serif;
+   font-size: 20px;
+   color: rgb(51, 51, 51);
+   font-weight: 520;
+   line-height: 25px;
+   padding-bottom: 15px;
+   padding-top: 30px;
+}
+#designBox>#design>div>p{
+    color:rgb(136, 136, 136);
+    font-size: 17px;  
+    font-weight: 400; 
+    padding-bottom: 5px;
+    line-height: 20px;
+    font-family: Poppins, sans-serif;
+}
+#designBox>#design>div>h5{
+    color: rgb(51, 51, 51);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-top: 10px;
+
+}
+#designBox>#design>div>h6{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+    color: rgb(163, 180, 155);
+}
+div>h7{
+    height: 10px;
+    width: 100%;
+    
+    font-size: 13px;
+    padding: 20px;
+    padding-top: 10px;
+    margin: auto;
+}
+#icon2{
+    display: flex;
+    width: 80%;
+    height: 55px;
+    margin: auto
+}
+#icon2>h3{
+    width: 90%;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-family: Poppins,sans-serif;
+    font-weight: 500;
+    color: rgb(51, 51, 51);
+    font-size: 30px;
+}
+#icon2>div>img{
+    width: 45px;
+    height: 45px;
+    color: teal;
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-top: 12px;
+    cursor: pointer;
+}
+#bottomDiv{
+    width: 100%;
+    background-color: #EEF2F0; 
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+#bottomDiv>#tool,#compass{
+    width: 80%;
+    margin: auto;
+}
+#tool>h6{
+    font-size: 13px;
+    height: 30px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    margin: auto;
+    margin-top: 5px;
+    padding: 15px;
+    font-family: Poppins,sans-serif;
+    font-weight: 500;
+    color: rgb(51, 51, 51);
+
+}
+#compass>h3{
+    padding-top: -10px;
+    font-size: 17px;
+    background-color: #EEF2F0;
+    color: rgb(51, 51, 51);
+    padding-bottom: 15px;
+    font-family: Poppins,sans-serif;
+}
+#boxEmail{
+    font-family: Poppins,sans-serif;
+    font-size: 16px;
+    padding:10px 30px 10px 5px;
+    margin:5px 0 15px 0;
+    border-radius: 5px;
+    border: 0px ;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+#social{
+    display: flex;
+    width: 100%;
+    height: 8%;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+#social>h5{
+    color: rgb(51, 51, 51);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+}

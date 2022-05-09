@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#form{
+    padding-top: 5px;
+    width: 35%;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #F4F7F3;
+}
+#form>h1{
+    text-align: center;
+    color: rgb(55, 45, 45);
+    margin-top: 20px;
+}
+.input{
+    width: 80%;
+    height: 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border: 0px;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 45px;
+    border-radius: 10px;
+    padding-left: 10px;
+      
+}
+#card{
+    width: 80%;
+    height: 40px;
+    
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 45px;
+    border-radius: 10px;
+
+}
+.option{
+    width: 30%;
+    height: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border: 0px;
+    margin: auto;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.cvv{
+    width: 29%;
+    height: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border: 0px;
+    margin: auto;
+    border-radius: 10px;
+    margin-left: 25.5px;
+    padding-left: 10px;
+}
+#submit{
+    width: 120px;
+    font-size: 40px;
+    cursor: pointer;
+    margin: auto;
+   margin-left: 180px;
+   margin-top: 50px;
+   padding: 10px 20px 10px 20px;
+   border-radius: 10px;
+   border: 0px;
+   color: white;
+   font-family: Poppins sans-serif;
+   font-weight: 700;
+   background-color:rgb(163, 180, 155);
+}
+#submit:hover{
+    background-color: black;
+    color: white;
+}

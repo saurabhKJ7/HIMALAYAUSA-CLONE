@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="payment.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <form id="form">
+        <h1>Confirm Your Payment</h1>
+        <input class="input" type="text" placeholder="Card Number">
+        <input class="input" type="text" placeholder="Card Holder Number">
+        <div id="card">
+               <select class="option">
+                   <option value="MM">MM</option>
+                   <option value="Jan">01</option>
+                   <option value="Feb">02</option>
+                   <option value="March">03</option>
+                   <option value="April">04</option>
+                   <option value="May">05</option>
+                   <option value="June">06</option>
+                   <option value="July">07</option>
+                   <option value="Aug">08</option>
+                   <option value="Sept">09</option>
+                   <option value="Oct">10</option>
+                   <option value="Nov">11</option>
+                   <option value="Dec">12</option>
+               </select>
+               <select class="option">
+                   <option value="YY">YY</option>
+                   <option value="2022">2022</option>
+                   <option value="2023">2023</option>
+                   <option value="2024">2024</option>
+                   <option value="2025">2025</option>
+                   <option value="2026">2026</option>
+               </select>
+               <input class="cvv" type="password" placeholder="CVV">
+        </div>
+        <p id="submit">Submit</p>
+
+    </form>
+</body>
+</html>
+
+<script>
+    document.getElementById("submit").addEventListener("click",myfunction)
+    
+    function myfunction(){
+        swal("Great!", "Order Placed!", "success");
+    }
+</script>
